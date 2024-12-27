@@ -1,0 +1,25 @@
+.app-wrapper nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+nav h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+nav .nav-items ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav button{
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
