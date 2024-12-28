@@ -1,5 +1,6 @@
 import React from 'react'
 import './appWrapper.css'
+import { Outlet } from 'react-router-dom'
 export default function AppWrapper() {
   return (
     <div className='app-wrapper'>
@@ -24,7 +25,7 @@ export default function AppWrapper() {
         </div>
       </nav>
       <main>
-
+        <Outlet />
       </main>
     </div>
   )
