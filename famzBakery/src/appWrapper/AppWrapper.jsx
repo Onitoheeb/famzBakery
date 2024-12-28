@@ -8,17 +8,20 @@ export default function AppWrapper() {
           <h2>Famz <span>Bakery</span></h2>
         </div>
         <div className='nav-items'>
-            <ul>
-              <li>Home</li>
-              <li>Blog</li>
-              <li>Shop</li>
-              <li>Contact</li>
-              <li>About</li>
-            </ul>
+          <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Shop</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
         </div>
-        <button className="get-started">
-          Get Started
-        </button>
+        <div className="button-and-search">
+          <i className='bx bx-search'></i>
+          <button className="get-started">
+            Get Started
+          </button>
+        </div>
       </nav>
       <main>
 

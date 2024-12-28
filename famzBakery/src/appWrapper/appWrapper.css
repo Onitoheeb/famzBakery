@@ -19,6 +19,16 @@ nav .nav-items ul{
     font-size: 18px;
     font-weight: 400;
 }
+nav .button-and-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.button-and-search i{
+    font-size: 20px;
+    cursor: pointer;
+}
 nav button{
     font-size: 14px;
     padding: 10px 20px;
