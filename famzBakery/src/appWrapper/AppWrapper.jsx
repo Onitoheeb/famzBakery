@@ -5,7 +5,7 @@ export default function AppWrapper() {
     <div className='app-wrapper'>
       <nav>
         <div className="nav-brand">
-          <h2>Famz Bakery</h2>
+          <h2>Famz <span>Bakery</span></h2>
         </div>
         <div className='nav-items'>
             <ul>
