@@ -1,0 +1,29 @@
+.hot-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 4rem;
+    align-items: center;
+}
+.hot-container .hot-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hot-header h3{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+.hot-header p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+}
+.hot-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
