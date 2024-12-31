@@ -13,6 +13,7 @@
 .product-header h3{
     font-size: 23px;
     font-weight: 500;
+    text-align: center;
 }
 .product-header ul{
     list-style: none;
