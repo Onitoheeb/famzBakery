@@ -20,6 +20,8 @@
     align-items: center;
     font-size: 18px;
     font-weight: 400;
+    width: 40%;
+    text-align: center;
 }
 .about-container .about-body{
     display: grid;
