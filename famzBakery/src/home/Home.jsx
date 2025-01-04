@@ -3,6 +3,7 @@ import Hero from './hero/Hero'
 import Product from './product/Product'
 import About from './about/About'
 import Hot from './hot/Hot'
+import Footer from './footer/Footer'
 export default function Home() {
   return (
     <div className='home-container'>
@@ -10,6 +11,7 @@ export default function Home() {
         <Product />
         <About />
         <Hot />
+        <Footer />
     </div>
   )
 }
