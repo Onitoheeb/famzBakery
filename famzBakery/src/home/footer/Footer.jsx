@@ -46,7 +46,7 @@ export default function Footer() {
                 <div className="bottom-text">
                     <h4>Enter your Email to get our</h4>
                     <p>Recipe of the day</p>
-                    <p>Copyright &copy; {dateYear}</p>
+                    <p>&copy; Copyright {dateYear}</p>
                 </div>
                 <div className="bottom-form">
                     <form action="">
