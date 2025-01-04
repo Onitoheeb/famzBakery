@@ -9,6 +9,15 @@
     background-color: #E7DDCE;
     border-radius: 20px 0 0 20px;
 }
+.hero-image h1{
+    rotate: -90deg;
+    position: absolute;
+    right: -35%;
+    top: 50%;
+    font-size: 20vmin !important;
+    transform: translate(-0%, -50%);
+    color: white;
+}
 .hero-container .hero-image img{
     position: absolute;
     bottom: 0;

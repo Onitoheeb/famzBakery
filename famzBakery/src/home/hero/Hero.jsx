@@ -5,6 +5,7 @@ export default function Hero() {
     <div className='hero-container'>
       <div className="hero-image">
         <img src="assets/hero-image.png" alt="hero-image" />
+        <h1>Freshness</h1>
       </div>
       <div className="hero-wrapper">
         <h1>
