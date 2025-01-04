@@ -7,7 +7,7 @@ export default function Hot() {
   return (
     <div className='hot-container'>
         <div className="hot-header">
-            <h3>Fresh From Our Ovens</h3>
+            <h3>Fresh From Our <span>Ovens</span></h3>
             <p>Discover our master bakers' most celebrated creations, handcrafted daily with premium ingredients and years of expertise</p>
         </div>
         <div className="hot-body">
