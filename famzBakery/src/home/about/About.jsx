@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='about-container'>
         <div className="about-header">
-            <h3>Our Story of Flour, Family & Tradition</h3>
+            <h3>Our Story of Flour, <span>Family & Tradition</span></h3>
             <p>From our family's traditional recipes to your breakfast table, we're baking memories one slice at a time</p>
         </div>
         <div className="about-body">
