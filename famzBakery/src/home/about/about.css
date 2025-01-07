@@ -93,7 +93,7 @@
         padding: 4rem 3rem;
     }
     .about-header p{
-        width: 60%;
+        width: 70%;
     }
     .about-container .about-body{
         grid-template-columns: 1fr;
@@ -102,7 +102,9 @@
 
 /* Large Devices (Desktops, 992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* Styles for large devices */
+    .about-header p{
+        width: 60%;
+    }
 }
 
 /* Extra Large Devices (Desktops, 1200px and above) */

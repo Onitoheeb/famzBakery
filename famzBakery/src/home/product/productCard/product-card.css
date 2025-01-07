@@ -60,21 +60,21 @@
 }
 @media (max-width: 575px) {
     .product-card{
-        min-width: 70%;
+        min-width: 80%;
     }
 }
 
 /* Small Devices (Phones, Landscape, 576px to 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
     .product-card{
-        min-width: 50%;
+        min-width: 60%;
     }
 }
 
 /* Medium Devices (Tablets, 768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .product-card{
-        min-width: 30%;
+        min-width: 45%;
     }
 }
 
