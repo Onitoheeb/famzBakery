@@ -20,6 +20,37 @@ nav .nav-items ul{
     font-size: 20px;
     font-weight: 500
 }
+
+.nav-items ul li{
+    position: relative;
+}
+.nav-items ul li:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #904026;
+}
+.nav-items ul li a.active::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #904026;
+}
+.nav-items ul li a:hover ~ .active{
+    color: red;
+}
+.nav-items ul li a{
+    text-decoration: none !important;
+    color: black;
+}
 nav .button-and-search{
     display: flex;
     align-items: center;
@@ -39,4 +70,206 @@ nav button{
     color: white;
     font-weight: 400;
     border-radius: 30px;
+}
+.button-and-search .bx-menu{
+    display: none;
+}
+.active{
+    left: 0;
+}
+.bx .bx-bx{
+    z-index: 10;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 11;
+}
+@media (max-width: 575px) {
+    .app-wrapper nav{
+        padding: 1rem;
+    }
+    .app-wrapper .nav-brand{
+        flex: 1;
+    }
+    .nav-brand h2{
+        font-size: 18px;
+    }
+    nav .button-and-search{
+        gap: 0.5rem;
+    }
+    nav .nav-items ul{
+        font-size: 16px;
+        font-weight: 500
+    }
+    .button-and-search .bx-menu{
+        display: block;
+    }
+    nav .nav-items{
+        position: fixed;
+        top: 0;
+        right: -200vw;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        z-index: 12;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start !important;
+        padding: 2rem 1rem;
+    }
+    .nav-items ul li{
+        position: relative;
+    }
+    .nav-items ul li a{
+        text-decoration: none !important;
+        color: black;
+    }
+    .nav-items ul li:hover::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #904026;
+    }
+}
+
+/* Small Devices (Phones, Landscape, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .app-wrapper nav{
+        padding: 1rem 2rem;
+    }
+    .button-and-search .bx-menu{
+        display: block;
+    }
+    .app-wrapper .nav-brand{
+        flex: 1;
+    }
+    .nav-brand h2{
+        font-size: 20px;
+    }
+    nav .button-and-search{
+        gap: 1rem;
+    }
+    .button-and-search .bx-menu{
+        display: block;
+    }
+    nav .nav-items{
+        position: fixed;
+        top: 0;
+        right: -200vw;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        z-index: 12;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start !important;
+        padding: 1rem 2rem;
+    }
+    nav .nav-items ul{
+        font-size: 16px;
+        font-weight: 500
+    }
+    .nav-items ul li{
+        position: relative;
+    }
+    .nav-items ul li a{
+        text-decoration: none !important;
+        color: black;
+    }
+    .nav-items ul li:hover::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #904026;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .app-wrapper nav{
+        padding: 1rem 3rem;
+    }
+    .button-and-search .bx-menu{
+        display: block;
+    }
+    .app-wrapper .nav-brand{
+        flex: 1;
+    }
+    .nav-brand h2{
+        font-size: 20px;
+    }
+    nav .button-and-search{
+        gap: 2rem;
+    }
+    .button-and-search .bx-menu{
+        display: block;
+    }
+    nav .nav-items{
+        position: fixed;
+        top: 0;
+        right: -200vw;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        z-index: 12;
+    }
+    .nav-items ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start !important;
+        padding: 2rem 2rem;
+    }
+    nav .nav-items ul{
+        font-size: 18px;
+        font-weight: 500
+    }
+    .nav-items ul li{
+        position: relative;
+    }
+    .nav-items ul li a{
+        text-decoration: none !important;
+        color: black;
+    }
+    .nav-items ul li:hover::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #904026;
+    }
+}
+
+/* Large Devices (Desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large devices */
+}
+
+/* Extra Large Devices (Desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
+/* Ultra-Wide Screens (Desktops, 1600px and above) */
+@media (min-width: 1600px) {
+    /* Styles for ultra-wide screens */
 }

@@ -122,3 +122,61 @@
     color: black;
     font-size: 14px;
 }
+@media (max-width: 575px) {
+    .footer-container{
+        padding: 2rem 1rem;
+    }
+    .footer-container .top-footer{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .top-footer .top-three h4{
+        text-align: start;
+    }
+    .top-footer .top-three .photos img{
+        width: 100%;
+        height: fit-content;
+    }
+    .bottom-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* Small Devices (Phones, Landscape, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/* Medium Devices (Tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-container .top-footer{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .top-footer .top-three .photos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: start;
+    }
+    .top-footer .top-three h4{
+        text-align: start;
+    }
+}
+
+/* Large Devices (Desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large devices */
+}
+
+/* Extra Large Devices (Desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
+/* Ultra-Wide Screens (Desktops, 1600px and above) */
+@media (min-width: 1600px) {
+    /* Styles for ultra-wide screens */
+}

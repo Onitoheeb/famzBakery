@@ -30,3 +30,55 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
+@media (max-width: 575px) {
+    .hot-container{
+        padding: 2rem 1rem;
+    }
+    .hot-header p{
+        width: 90%;
+    }
+    .hot-product{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small Devices (Phones, Landscape, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hot-container{
+        padding: 2rem 2rem;
+    }
+    .hot-header p{
+        width: 80%;
+    }
+    .hot-product{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hot-container{
+        padding: 2rem 3rem;
+    }
+    .hot-header p{
+        width: 70%;
+    }
+    .hot-product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Devices (Desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large devices */
+}
+
+/* Extra Large Devices (Desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
+/* Ultra-Wide Screens (Desktops, 1600px and above) */
+@media (min-width: 1600px) {
+    /* Styles for ultra-wide screens */
+}

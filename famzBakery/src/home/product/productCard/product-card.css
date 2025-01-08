@@ -58,3 +58,37 @@
     border: none;
     width: fit-content;
 }
+@media (max-width: 575px) {
+    .product-card{
+        min-width: 80%;
+    }
+}
+
+/* Small Devices (Phones, Landscape, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .product-card{
+        min-width: 60%;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .product-card{
+        min-width: 45%;
+    }
+}
+
+/* Large Devices (Desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large devices */
+}
+
+/* Extra Large Devices (Desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
+/* Ultra-Wide Screens (Desktops, 1600px and above) */
+@media (min-width: 1600px) {
+    /* Styles for ultra-wide screens */
+}
