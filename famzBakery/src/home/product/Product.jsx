@@ -8,7 +8,7 @@ export default function () {
             <h3>Our Products</h3>
             <div className="product-header">
                 <ul>
-                    <li>All product</li>
+                    <li>Menu</li>
                     <li>Bread</li>
                     <li>Cafe</li>
                     <li>Cookies</li>
