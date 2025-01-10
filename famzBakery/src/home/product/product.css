@@ -49,9 +49,6 @@
     .product-header ul{
         margin-left: 8rem;
     }
-    .product-header ul li:nth-child(1){
-        width: 100px;
-    }
     .product-header::-webkit-scrollbar{
         width: 1px;
         scrollbar-width: thin;
